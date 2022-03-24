@@ -1,3 +1,11 @@
+"""
+Contar todas as ocorrência de um carácter num texto. 
+A primeira linha será um texto grande. 
+Seguido da letra que quer procurar. 
+O sistema deve retornar a quantidade de vezes que uma letra aparece repetidamente.
+
+"""
+
 palavra = input("Digite uma palavra: ")
 letra = input("Digite a letra que você quer pesquisar? ")
 tamanho = len(palavra) - 1
